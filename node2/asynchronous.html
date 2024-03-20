@@ -11,17 +11,17 @@
 
 <body>
     <h2 class="text"></h2>
-  
+
     <script>
         console.log('First line of code');
         const text = document.querySelector('.text');
         text.textContent = "GeeksforGeeks";
-        alert('Welcome to purgatory!!');
-        text.style.color = "green";
+        setTimeout(function () {
+            text.style.color = "green";
+        }, 3000);
         console.log('Color Changed');
     </script>
-  
+
 </body>
 
 </html>
-
